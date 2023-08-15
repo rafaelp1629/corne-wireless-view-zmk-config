@@ -16,13 +16,13 @@
                         bindings = <
                         //╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮
                         //│  TAB     │  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │  P       │  BKSP    │
-                        &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BSPC
+                           &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BSPC
                         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
                         //│  SHFT    │  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │  ;       │ ' "      │
-                        &kp LSHFT   &kp A       &kp S      &kp D      &kp F     &kp G          &kp H      &kp J      &kp K       &kp L    &kp SEMI     &kp SQT
+                           &kp LSHFT   &kp A       &kp S      &kp D      &kp F     &kp G          &kp H      &kp J      &kp K       &kp L    &kp SEMI     &kp SQT
                         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
                         //│  CTRL    │  X       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ /        │ ESC      │
-                        &kp LCTRL   &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH    &kp ESC
+                           &kp LCTRL   &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH    &kp ESC
                         //╰──────────┴──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────┴──────────╯
                                                             &kp LGUI    &mo 1     &kp SPACE      &kp ENTER   &mo 2     &kp LALT
                         //                                 ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
@@ -33,13 +33,13 @@
                         bindings = <
                         //╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮
                         //│  F1      │  F2      │  F3      │  F4      │  F5      │  F6      │   │  HOME    │ INSERT   │ PAGE UP  │  7       │  8       │ 9        │
-                        &kp F1     &kp F2     &kp F3     &kp F4      &kp F5    &kp F6         &kp HOME      &kp INS    &kp PG_UP  &kp N7      &kp N8     &kp N9
+                            &kp F1     &kp F2     &kp F3     &kp F4      &kp F5    &kp F6         &kp HOME   &kp INS    &kp PG_UP  &kp N7      &kp N8     &kp N9
                         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
                         //│  F7      │  F8      │  F9      │  F10     │  F11     │  F12     │   │  END     │  UP      │  PAGE DN │  4       │  5       │ 6        │
-                        &kp F7   &kp F8       &kp F9      &kp F10      &kp F11     &kp F12          &kp END   &kp UARW    &kp PG_DN   &kp N4    &kp N5     &kp N6
+                             &kp F7    &kp F8     &kp F9      &kp F10    &kp F11     &kp F12       &kp END   &kp UARW    &kp PG_DN   &kp N4    &kp N5     &kp N6
                         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
                         //│  CTRL    │  SHFT    │  +       │   -      │  *       │   /      │   │  LEFT    │  DOWN    │ RIGHT    │ 1        │ 2        │ 3        │
-                        &kp LCTRL  &kp LSHFT   &kp PLUS   &kp MINUS  &kp KP_MULTIPLY  &kp FSLH      &kp LARW   &kp DARW   &kp RARW   &kp N1     &kp N2     &kp N3
+                            &kp LCTRL  &kp LSHFT   &kp PLUS   &kp MINUS  &kp KP_MULTIPLY  &kp FSLH      &kp LARW   &kp DARW   &kp RARW   &kp N1     &kp N2     &kp N3
                         //╰──────────┴──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────┴──────────╯
                                                             &kp LALT    &trans     &kp SPACE      &kp ENTER   &trans     &kp N0
                         //                                 ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
@@ -50,13 +50,13 @@
                         bindings = <
                         //╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮
                         //│  TAB     │  !       │  @       │  #       │  $       │  %       │   │  ^       │  &       │ (        │   )      │  *       │  DEL     │
-                            &kp TAB   &kp EXCL   &kp AT     &kp HASH   &kp DLLR    &kp PRCNT     &kp CARET  &kp AMPS &kp  &kp LPAR  &kp RPAR KP_MULTIPLY  &kp DEL
+                            &kp TAB   &kp EXCL   &kp AT     &kp HASH   &kp DLLR    &kp PRCNT     &kp CARET  &kp AMPS  &kp LPAR  &kp RPAR  &kp KP_MULTIPLY  &kp DEL
                         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
                         //│  SHFT    │  Play    │  Vol     │  Vol     │  Prev    │  Next    │   │  -       │  =       │  [       │  ]       │  \       │ `        │
-                        &kp LSHFT   &kp C_PP  &kp C_VOL_UP &kp C_VOL_DN &kp C_PREV &kp C_NEXT    &kp MINUS   &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH    &kp GRAVE
+                        &kp LSHFT   &kp C_PP  &kp C_VOL_UP  &kp C_VOL_DN  &kp C_PREV  &kp C_NEXT    &kp MINUS   &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH    &kp GRAVE
                         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
                         //│  CTRL    │          │  BT_CLR  │  BT1     │  BT2      │  BT3    │   │  _       │  +       │   {      │   }      │   "|"    │   ~      │
-                        &kp LCTRL   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3  &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE   &kp TILDE
+                        &kp LCTRL   &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE   &kp TILDE
                         //╰──────────┴──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────┴──────────╯
                                                             &kp LALT    &trans     &kp SPACE      &kp ENTER   &trans     &kp RALT
                         //                                 ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
